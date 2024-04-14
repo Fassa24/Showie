@@ -1,0 +1,20 @@
+{
+  "name": "streaming-service-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "streaming-availability": "^3.1.0"
+  }
+}
